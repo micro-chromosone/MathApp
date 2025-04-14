@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_main.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:id</span><span class="s2">=&quot;@+id/main&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;#E91E63&quot;</span>
+    <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#009688&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.MainActivity&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnCalculate&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;197dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;56dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;176dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;+&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold|italic&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.074&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;EditText</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/valueOne&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;290dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;63dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;376dp&quot;</span>
+        <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+        <span class="s1">android:inputType</span><span class="s2">=&quot;text&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;2&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.413&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/imageView4&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.853&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;EditText</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/valueTwo&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;289dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;61dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;280dp&quot;</span>
+        <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+        <span class="s1">android:inputType</span><span class="s2">=&quot;text&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;1&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.408&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textAnswer&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;190dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;61dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Answer&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;34sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.592&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btnCalculate&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.884&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView2&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;660dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;CALCULATOR APP&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;34sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.527&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;ImageView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView4&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;233dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;195dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;456dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.382&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:srcCompat</span><span class="s2">=&quot;@drawable/cartoon&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnSubtract&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;194dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;56dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;96dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;-&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.073&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btnCalculate&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;1.0&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnDivide&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;171dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;52dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;176dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;/&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.933&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnMultiply&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;168dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;54dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;88dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;X&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.934&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+<span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span></pre>
+</body>
+</html>
